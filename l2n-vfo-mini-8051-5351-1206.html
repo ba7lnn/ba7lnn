@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>L2N DDS MINI, 1206屏幕，OLED,STC8H1K17T, Si5351， Radio Amateurs@ba7lnn 2023</title>
+<title>L2N VFO MINI, 1206屏幕，OLED,STC8H1K17T, Si5351， Radio Amateurs@ba7lnn 2023</title>
 <link href="main.css" rel="stylesheet" type="text/css" />
 <meta name="viewport" content="width=device-width, initial-scale=1" /> 
 </head>
@@ -15,12 +15,109 @@
 <p><img src="assets/l2n-vfo-mini-1206.jpg" alt="1206屏" /></p>
 <h1>L2N VFO MINI</h1>
 
+<h2>功能：</h2>
 <ul>
+  <li>→ 次变频，支持USB/LSB/CW
+  <li>→ 可选择中频8MHz/9MHz
+</ul>
+<hr size="1"/>
+
+
+<h2>引脚功能概要</h2>
+<ul>
+  <li>→ P3.6 ：PTT输出引脚，当手咪按下时，此时引脚低电位， 屏幕“R”字样变为“T”表 示由接收状态进入发射。
+<li>→ P5.4 ：波段选择，用于驱动继电器，选择7m或是14m
+<li>→ P1.6 ：SWR_F, 驻波输入正向功率
+<li>→ P1.7 ：SWR_R, 驻波输入反向功率
+<li>→ P1.0：输出引脚, 处在cw模式时，此时引脚低电位， 屏幕“CW”字样
+<li>→ P1.1：接收与发射切换引脚
+<li>→ RXD ：P3.0, UART RXD引脚,
+<li>→ TXD ：P3.1, UART TXD引脚
+<li>→ SCL ： I2C时钟引脚，这里用于OLED屏
+<li>→ SDA ： I2C数据引脚，这里用于OLED屏
+<li>→ AVCC和5V ,使用跳线连接两个引脚时，启用ADC 2.5V精准采样电压
+<li>→ 5V，GND(两路)， 一个输入供电，另一个用于OLED输出
+</ul>
+<hr size="1"/>
+
+<h2>频率输出:</h2>
+<ul>
+  <li>→ CLK0: 输出中频：8M或9M
+  <li>→ CLK2: 输出中频：8M或9M 
+  <li>→ CLK1: 输出VFO
+</ul>
+<img src="assets/l2n-vfo-mini-freq-memo1.jpg" alt="L2N VFO MINI 原理图" /><br/>
+注：每个CLKx 旁边均有GND引脚，需注意有箭头处为频率出脚, 如上图所注
+<hr size="1"/>
+
+
+
+<h2>安装硬件:</h2>
+<ul>
+  <li>→ 按照引脚功能，连接主板，通电前检查： 是否为5V供电、
 </ul>
 
-<h2>图片集</h2>
-<img src="assets/l2n-vfo-mini-sim-front.png" alt="L2N VFO MINI PCB正面" />
+<h2>频率校准:</h2>
+<p>
+本身安装的25MHz TCXO(封装格式为3225), 根据Si5351芯片数据手册也可换成27MHz TCXO, 只需要3脚电压输入，4脚频率输出即可。安装各屏幕后，长按进入选项1-1，XTAL，即可进行校准，这里以25MHZ为例。
+</p>
 
+<p>
+在进入25mhz校准模式下，CLK0, CLK1, CLK2均输出10MHz频率。
+</p>
+
+<p>
+这里你可以使用频率计测量上面CLK0输入， 假如： 9.9999734MHZ, 即可你需要校正的25MHz应改为：24999933MHZ即可。
+</p>
+
+<p><b>计算公式：</b><br/>
+10.000 000 mhz 你需要的频率。<br/>
+9.999 734 * 25 000 000 / 10 000 000 = 24 999 933<br/>
+注意： TCXO需要运行一段时间，等温度稳定才行<br/>
+</p>
+
+<h2>关于屏幕</h2>
+<ul>
+  <li>→ 1、屏幕使用的是OLED 1306, 0.96或是1.3英寸均可。
+  <li>→ 2、关于屏幕干扰短波，说是屏幕的电荷泵，常用两种方
+  <li>→ (1)在VCC上串联色环电感330mH,再并联470uF电容到GND
+  <li>→ (2)直接拆除C3, C4电容，再加一跳线如下图
+</ul>
+<p><img src="assets/oled-bug.jpg" alt="L2N VFO MINI OLED BUG" /><br/>实际此方法下民屏亮度有所降低，但不影响使用。</p>
+
+
+<hr size="1"/>
+
+<h2>原理图 Schematic</h2>
+<img src="assets/Schematic_L2N_VFO_Mini_2024-03-10.jpg" alt="L2N VFO MINI 原理图" />
+
+<hr size="1"/>
+<h2>下载资料</h2>
+<ul>
+  <li>→  <a href="assets/Schematic_L2N_VFO_Mini_2024-03-10.pdf">Schematic 原理图PDF</a>
+  <li>→  <a href="assets/l2n-vfo-mini-v1.0.hex">L2N VFO MINI 固件(HEX)</a>
+  <li>→  <a href="assets/l2n-vfo-mini-manual.pdf">L2N VFO MINI 使用手册</a>
+</ul>
+
+<hr size="1"/>
+
+<h2>图片集</h2>
+<hr size="1"/>
+
+<img src="assets/l2n-vfo-mini-front.jpg" alt="L2N VFO MINI正面" />
+<img src="assets/l2n-vfo-mini-back.jpg" alt="L2N VFO MINI正面" />
+<img src="assets/l2n-vfo-mini-sim-front.png" alt="L2N VFO MINI PCB正面" />
 <img src="assets/l2n-vfo-mini-sim-back.png" alt="L2N VFO MINI PCB背面" />
+
+<hr size="1"/>
+<h2>联系方式</h2>
+<ul>
+  <li>→ Mobile: +86 137 2586 0789
+  <li>→ Email: ba7lnn@foxmail.com
+</ul>
+
+<hr size="1"/>
+<p>© 2023.01-2025.03. BA7LNN . All rights reserved.</p>
+
  </body>
 </html>
