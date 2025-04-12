@@ -10,17 +10,23 @@
 <body><div class="panel">
 
 <h3>BA7LNN @ Radio Amateurs</h3>
+
+<hr size="1"/>
+<h1>L2N VFO MINI</h1>
 <hr size="1"/>
 
-<p><img src="assets/l2n-vfo-mini-1206.jpg" alt="1206屏" /></p>
-<h1>L2N VFO MINI</h1>
-
-<h2>功能：</h2>
+<h2>功能概要：</h2>
 <ul>
-  <li>→ 次变频，支持USB/LSB/CW
-  <li>→ 可选择中频8MHz/9MHz
+<li> → 支持USB/LSB/CW/FT8</li>
+<li> → 中频8MHz</li>
+<li> → 1206屏幕/OLED 0.96 Inch(12864 SSD1306)</li>
+<li> → 8051单片机</li>
+<li> → Si5351(SILICON LABS)/MS5351(国产)</li>
+<li> → 硬件开源资料，软件代码因写的丑不开源</li>
 </ul>
 <hr size="1"/>
+<p><img src="assets/l2n-vfo-mini-1206.jpg" alt="1206屏" /></p>
+<p><img src="assets/l2n-vfo-pico-oled.jpg" alt="0.96的OLED屏幕 " /></p>
 
 
 <h2>引脚功能概要</h2>
@@ -30,15 +36,22 @@
   <li>→ P1.6 ：SWR_F, 驻波输入正向功率
   <li>→ P1.7 ：SWR_R, 驻波输入反向功率
   <li>→ P1.0：输出引脚, 处在cw模式时，此时引脚低电位， 屏幕“CW”字样
-  <li>→ P5.4 ：波段选择，用于驱动继电器，选择7m或是14m
   <li>→ P1.1：接收与发射切换引脚
   <li>→ RXD ：P3.0, UART RXD引脚
   <li>→ TXD ：P3.1, UART TXD引脚
-  <li>→ SCL ： I2C时钟引脚，这里用于OLED屏
-  <li>→ SDA ： I2C数据引脚，这里用于OLED屏
-  <li>→ AVCC和5V ,使用跳线连接两个引脚时，启用ADC 2.5V精准采样电压
+  <li>→ SCL(P3.2) ： I2C时钟引脚，这里用于OLED屏
+  <li>→ SDA(P3.3) ： I2C数据引脚，这里用于OLED屏
+  <li>→ AVCC和5V ,使用跳线连接两个引脚时，启用ADC,经TL431后2.5V精准采样电压
   <li>→ 5V，GND(两路)， 一个输入供电，另一个用于OLED输出
 </ul>
+
+ <ul>
+  <li>→ P3.5 ：EC11编码器A向
+  <li>→ P3.7 ：EC11编码器B向
+  <li>→ P3.4 ：EC11编码器按键
+</ul>
+
+注：I2C引脚也用于经PCF8574T后连接到1602屏，下载对应固件即可
 <hr size="1"/>
 
 <h2>频率输出:</h2>
@@ -60,7 +73,7 @@
 
 <h2>频率校准:</h2>
 <p>
-本身安装的25MHz TCXO(封装格式为3225), 根据Si5351芯片数据手册也可换成27MHz TCXO, 只需要3脚电压输入，4脚频率输出即可。安装各屏幕后，长按进入选项1-1，XTAL，即可进行校准，这里以25MHZ为例。
+Si5351本身安装的25MHz TCXO(封装格式为3225), 根据Si5351芯片数据手册也可换成27MHz TCXO, 只需要3脚电压输入，4脚频率输出即可。安装各屏幕后，长按进入选项1-1，XTAL，即可进行校准，这里以25MHZ为例。
 </p>
 
 <p>
@@ -96,9 +109,17 @@
 <h2>下载资料</h2>
 <ul>
   <li>→  <a href="assets/Schematic_L2N_VFO_Mini_2024-03-10.pdf">Schematic 原理图PDF</a>
-  <li>→  <a href="assets/l2n-vfo-mini-1206-v1.0.hex">(固件1 1206屏)L2N VFO MINI(HEX)</a>
-  <li>→  <a href="assets/l2n-vfo-mini-oled-v1.0.hex">(固件2 OLED屏)L2N VFO MINI(HEX)</a>
+  <li>→  <a href="#">(固件1 1206屏)L2N VFO MINI(HEX) 待开放</a>
+  <li>→  <a href="assets/L2N_VFO_MINI_OLED_V1.4.hex">(固件2 OLED屏)L2N VFO MINI(HEX)</a>
   <li>→  <a href="assets/l2n-vfo-mini-manual.pdf">L2N VFO MINI 使用手册</a>
+</ul>
+
+
+<ul>
+  <li>主控MCU:  STC12C5A60S2-45I-LQFP44</li>
+  <li> → <a href="/assets/stc12c5a60s2.pdf">STC12C5数据手册</a></li>
+  <li>频率芯片: SI5351A-GTR</li>
+  <li> → <a href="/assets/si5351_an619.pdf">Si5351 AN619开手册PDF</a></li>
 </ul>
 
 <hr size="1"/>
