@@ -2,6 +2,26 @@
 body {color:#333;padding: 0px;margin: 0px; font-size:62.5%;font-family: 微软雅黑, Verdana, sans-serif, 宋体;}
 
 /************************以下是内容样式***********************/
-.panel{padding:0.5em; font-size:1.5em;line-height: 2em;}
-.panel ul{padding:0;}
-.panel img{max-width: 100%;height: auto;width: auto;border:none;}
+.container{padding:0.5em; font-size:1.5em;line-height: 2em;}
+.container ul{padding:0;}
+.container img{max-width: 100%;height: auto;width: auto;border:none;}
+
+
+/* 基本样式 */
+.container {
+  width: 100%;
+  padding: 10px;
+}
+ 
+/* 对于屏幕宽度小于 600px 的设备 */
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 80%;
+  }
+}
+ 
+/* 对于屏幕宽度在 600px 到 900px 之间的设备 */
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  .container {
+    width: 60%;
+  }
