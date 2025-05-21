@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>L2N DDS, 1206屏幕，STC12C5主控, Si5351，版本历史记录</title>
+<link href="main.css" rel="stylesheet" type="text/css" />
+<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+</head>
+
+<body><div class="panel">
+
+<quote>
+L2N DDS, 1206屏幕，STC12C5主控, Si5351
+</quote>
+
+<h1>历史记录</h1>
+
+
+<ul>
+  <li>支持USB/LSB/CW-U/CW-L</li>
+  <li>中频9MHz</li>
+  <li>主控MCU:  STC12C5A60S2-45I-LQFP44</li>
+  <li> → <a href="/assets/stc12c5a60s2.pdf">STC12C5数据手册</a></li>
+  <li>频率芯片: SI5351A-GTR</li>
+  <li> → <a href="/assets/si5351_an619.pdf">Si5351 AN619开手册PDF</a></li>
+</ul>
+
+<h2>V1.2 - (2023.7.26)</h2>
+
+<ul>
+  <li>修改部分引脚</li>
+  <li>根据bg2raq老师介绍，在输出CLK0,CLK1和CLK2使用1206的NPO 104电容</li>
+  <li>加IPX 4代RF贴片输出端口</li>
+  <li>→ <a href="/assets/dds_12c5/v12/Schematic_L2N_1206_12C5-V12_2023-07-26.pdf">原理图 PDF V1.2</a></li>
+  <li>→ <a href="/assets/dds_12c5/v12/Gerber_PCB_L2N_1206_12C5.zip">嘉立创Gerber文件 V1.2</a></li>
+  <li>→ <a href="/assets/dds_12c5/v12/PCB_PCB_L2N_1206_12C5_2023-07-26.json">嘉立创EDA文件 V1.2</a></li>
+  <li>目前为Beta版， 仅有7.050(40M)波段可以工作,</li>
+  <li>→ <a href="/assets/dds_12c5/v11/L2N_DDS_5351_Beta.hex">芯片固件 Ver: 1.1Beta</a></li>
+  <li>→ <a href="/assets/dds_12c5/v12/Schematic_L2N-1206-12C5-V12_2023-07-26-01.png">正面模拟图</a></li>
+  <li>→ <a href="/assets/dds_12c5/v12/Schematic_L2N-1206-12C5-V12_2023-07-26-02.png">背面模拟图</a></li>
+  <li>→ <a href="/assets/dds_12c5/v12/Schematic_L2N-1206-12C5-V12_2023-07-26-03.png">PCB布局线框图</a></li>
+  <li>→ <a href="dds_12c5_history_ver_logs.html">点击这里查看其它版本历史记录</a></li>
+</ul>
+
+<h2>引脚功能</h2>
+<ul>
+<li>PTT，(P1.4)输入引脚，当手咪按下时，此引脚低电位， 屏幕“R”字样变为“T”表
+示由接收状态进入发射。
+<li>CW， (P1.5)输出引脚, 处在cw模式时，此引脚低电位， 屏幕“CWR”字样。
+
+
+
+<li>SWR_F, (P1.0)输出引脚, 驻波引脚，正向功率
+<li>SWR_R, (P1.1)输出引脚，驻波引脚，反向功率
+<li>KEY, (P1.2) 未定
+<li>PWR, (P1.3) 未定
+
+<li>P4.4, NC,  未定
+
+<li>XTAL1, (P1.6) 晶振引脚
+<li>XTAL2, (P1.7) 晶振引脚
+
+<li>AGND, (ADC_AGND) LQFP44, 10脚 , ADC参考地电压引脚
+<li>AVREF, (AVREF) LQFP44, 11脚 , ADC参考电压引脚
+<li>AVCC, (ADC_AVCC) LQFP44, 12脚 , ADC参考电压源引脚
+
+<li>P5.4, NC,  未定
+<li>P5.5, NC,  未定
+<li>P4.0, NC,  未定
+
+<li>P3.0, UART RXD引脚, LQFP44, 18脚
+<li>P3.1, UART TXD引脚, LQFP44, 19脚
+
+<li>EC11_B, (P3.2)输入引脚, 旋转编码器B引脚
+<li>EC11_A, (P3.3)输入引脚, 旋转编码器A引脚
+<li>EC11_S, (P3.4)输入引脚, 旋转编码器按键引脚
+
+<li>Band1, (P0.7)输出引脚，xx米波段时，此引脚低电位，
+<li>Band2, (P0.6)输出引脚，xx米波段时，此引脚低电位，
+<li>Band3, (P0.5)输出引脚，xx米波段时，此引脚低电位，
+<li>Band4, (P0.4)输出引脚，xx米波段时，此引脚低电位，
+<li>Band5, (P0.3)输出引脚，xx米波段时，此引脚低电位，
+<li>Band6, (P0.2)输出引脚，xx米波段时，此引脚低电位，
+
+<li>DAH, (P0.1)输入引脚
+<li>DIT, (P0.0)输入引脚
+
+<li>P2.7, NC,  未定
+<li>P2.6, NC,  未定
+
+<li>SCL, (P2.5), I2C时钟引脚, (5V & 3V3 2N7002)
+<li>SDA, (P2.4), I2C数据引脚
+
+<li>TX, (P2.3), 输出引脚, 发射时， 此引脚低电位
+
+<li>P2.2, NC,  未定
+<li>P2.1, NC,  未定
+<li>P2.0, NC,  未定
+
+<li>P3.7, NC,  未定
+<li>P3.6, NC,  未定
+</ul>
+
+
+<h4 id="v11---2023722">V1.1 - (2023.7.22)</h4>
+<ul>
+  <li>
+    <p>LCD1602没有加入上拉电阻 :-(</p>
+  </li>
+  <li>目前为Beta版， 仅有7.050(40M)波段可以工作,</li>
+  <li>→ <a href="/assets/dds_12c5/v11/L2N_DDS_5351_Beta.hex">芯片固件 Ver: 1.1Beta</a></li>
+  <li>→ <a href="/assets/dds_12c5/v11/Schematic_L2N_1206_12C5_2023-07-03.pdf">原理图 PDF V1.1</a></li>
+  <li>→ <a href="/assets/dds_12c5/v11/Gerber_PCB_L2N_1206_12C5.zip">嘉立创Gerber文件 V1.1</a></li>
+  <li>→ <a href="/assets/dds_12c5/v11/Schematic_L2N_1206_12C5_2023-07-03.jpg">点击查看DDS 正面 V1.1 </a></li>
+</ul>
+
+<a href="index.html">首页</a>
+
+<hr size="1"/>
+
+<p>© 2023. BA7LNN . All rights reserved.</p>
+</div></body>
+</html>
