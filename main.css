@@ -12,7 +12,7 @@ a:hover{color:red;}
 
 /* 基本样式 */
 .container {
-  width: 60%;
+  width: 95%;
   padding: 10px;
   margin: 0 auto 0 auto;
 }
@@ -20,12 +20,12 @@ a:hover{color:red;}
 /* 对于屏幕宽度小于 600px 的设备 */
 @media only screen and (max-width: 600px) {
   .container {
-    width: 80%;
+    width: 85%;
   }
 }
  
 /* 对于屏幕宽度在 600px 到 900px 之间的设备 */
 @media only screen and (min-width: 600px) and (max-width: 900px) {
   .container {
-    width: 60%;
+    width: 75%;
   }
