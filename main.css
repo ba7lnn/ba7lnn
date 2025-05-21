@@ -20,7 +20,7 @@ a:hover{color:red;}
 /* 对于屏幕宽度小于 600px 的设备 */
 @media only screen and (max-width: 600px) {
   .container {
-    width: 85%;
+    width: 100%;
   }
 }
  
