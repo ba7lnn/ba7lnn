@@ -1,7 +1,7 @@
 /* CSS Document */
 body {color:#333;padding: 0px;margin: 0px; font-size:62.5%;font-family: 微软雅黑, Verdana, sans-serif, 宋体;}
-a:link,a:visited,a:active{ color: green;}
-a:hover{color:red;}
+a:link,a:visited,a:active{ color: blue;}
+a:hover{color:red;text-decoration:none;}
 
 
 /************************以下是内容样式***********************/
@@ -12,7 +12,7 @@ a:hover{color:red;}
 
 /* 基本样式 */
 .container {
-  width: 60%;
+  width: 55%;
   padding: 10px;
   margin: 0 auto 0 auto;
 }
@@ -20,7 +20,7 @@ a:hover{color:red;}
 /* 对于屏幕宽度小于 600px 的设备 */
 @media only screen and (max-width: 600px) {
   .container {
-    width: 80%;
+    width: 95%;
   }
 }
  
