@@ -43,9 +43,15 @@ a:hover{color:red;text-decoration:none;}
 	{
 		border-collapse:collapse;border:none; width=100%£»
 	}
-	th, td{
+	th, th, td{
 		border:solid #ccc 1px; padding=10px;
 		padding: 50px;
+	}
+
+	.container .post .post h1
+	{
+		font-size: 13px;
+		color: red;
 	}
 
 }
