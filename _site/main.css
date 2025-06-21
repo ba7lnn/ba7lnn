@@ -19,13 +19,33 @@ a:hover{color:red;text-decoration:none;}
 
 /* 对于屏幕宽度小于 600px 的设备 */
 @media only screen and (max-width: 600px) {
-  .container {
-    width: 95%;
-  }
+	.container {
+		width: 95%;
+	}
+
+	table
+	{
+		border-collapse:collapse;border:none; width=100%；
+	}
+	th, td{
+		border:solid #ccc 1px; padding=1px;
+		padding: 5px;
+	}
+
 }
  
 /* 对于屏幕宽度在 600px 到 900px 之间的设备 */
 @media only screen and (min-width: 600px) and (max-width: 900px) {
-  .container {
-    width: 60%;
-  }
+	.container {
+		width: 60%;
+	}
+  	table
+	{
+		border-collapse:collapse;border:none; width=100%；
+	}
+	th, td{
+		border:solid #ccc 1px; padding=10px;
+		padding: 50px;
+	}
+
+}
