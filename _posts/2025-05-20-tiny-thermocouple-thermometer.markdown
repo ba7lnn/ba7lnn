@@ -209,7 +209,7 @@ You'll probably also want to change the character definition of the "C" to an "F
 {  0x7F, 0x09, 0x09, 0x09, 0x01, 0x00  }, // F
 ```
 
-Copy From: (http://www.technoblogy.com/show?2G9S](http://www.technoblogy.com/show?2G9S)
+Copy From: [http://www.technoblogy.com/show?2G9S](http://www.technoblogy.com/show?2G9S)
 
 
 __Other TFT Graphics__
