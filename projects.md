@@ -5,6 +5,15 @@ title: Projects
 
 _________________
 
+## [reKNQ7](2025/05/reknq7-dip-smd-si53531.html)
+
+* PCB尺寸85*95mm
+* STM32F103x 32位单片机
+* 支持SSB/FT8
+* 中频8MHz
+* 5W功率
+
+
 ## [L2N M32 VFO (2025 NEW PROJECT)](2025/03/l2n-stm32-vfo-si5351.html)
 
 * ILI9341 2.4寸彩屏
