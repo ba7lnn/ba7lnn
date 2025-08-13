@@ -1,0 +1,31 @@
+---
+layout: post
+title: RDF 80m (3.5mhz), 2m (147mhz) si5351 STC8, SOP8
+date: 2025-08-12 15:19:00 -0700
+---
+
+## RDF 80米[3.5mhz] 
+
+<hr size=1/>
+
+![2D_RDF80_2025-08-13-front.png](/assets/2025/2D_RDF80_2025-08-13-front.png)
+![2D_RDF80_2025-08-13-back.png](/assets/2025/2D_RDF80_2025-08-13-back.png)
+
+![rdf80-pcb-1.jpg](/assets/2025/rdf80-pcb-1.jpg)
+![rdf80-pcb-2.jpg](/assets/2025/rdf80-pcb-2.jpg)
+
+* 查看走线[PCB PDF](/assets/2025/PCB_RDF80_2025-08-13.pdf)
+* 配合铝盒子尺寸： 42 * 42 * 80mm
+
+## RDF 2米[147mhz]
+
+<hr size=1/>
+
+![2D_RDF147_2025-08-13-front.png](/assets/2025/2D_RDF147_2025-08-13-front.png)
+![2D_RDF147_2025-08-13-back.png](/assets/2025/2D_RDF147_2025-08-13-back.png)
+
+
+* 查看走线[PCB PDF](/assets/2025/PCB_RDF147_2025-08-13.pdf)
+* 配合铝盒子尺寸： 32 * 32 * 80mm（黑和白两色可选）
+
+* [上面两个铝盒购买地址](https://item.taobao.com/item.htm?from=cart&id=606569714661&pisk=gPIZYKsCRlEZVRGQf6Kqa85b6k-9XnP7giOXntXDCCAg6PLDnBWuBCaYWs7Fi6L6s5U9oKAFsmT10tn2ntfYBIwTROB9DnV7N7Z5BOKqoavAbd0HK9pijK4BSoyU8qF7NuZ4Svx4_71jaS4l-LJkmdYmSe2eUKlMmFxDxJJDhf0mjsX3LBpxidmijDqH3KHMmKxm-DvyQfvMiK0HxBpDmIfDmJ-H9KxDisxmp6XGnDJWSJ010SE_heTwZOAEq9seINgOQBrYcMRy7QmWTmmcYdW49vXI4rOlyCTW86qIbnWH3sLRc7n9sUSduUj7gDBHyCt1j3zxZQbdTTLcx7m2p9WhlESQak8CxOQB8wFLV_-NgUjM8x2AL97HYZ-4kbAlJ6WJoMVo0pQF6M-Cj-a9fa65DUjgbbdByK5vyiN-XCYc4KhvKdDNDNlmuFvpLQwUL2NSPwya5xgSkqLH2pR7CdgxkFvpLQwULq3v-BpeNR91.&skuId=4252789585814&spm=a1z0d.6639537%2F202410.item.d606569714661.75787484mGpdYB&upStreamPrice=1000)
