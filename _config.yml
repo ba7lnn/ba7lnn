@@ -41,8 +41,8 @@ pagination:
   sort_reverse: true
 
 
-google_analytics: 'UA-91425214-2'
-bing_seo:		  'ECA8D4503D79297E7BB223666F18CAd8'
+google_analytics: ''
+bing_seo:		  ''
 emailme:          mailto:ba7lnn@foxmail.com
 
 gems:             [jekyll-paginate-v2, jekyll-seo-tag, jekyll-sitemap]
