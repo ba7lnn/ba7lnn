@@ -10,7 +10,7 @@ baseurl:	'/'
 # Setup
 title:            BA7LNN
 tagline:          'Long Peng'
-description:      'Reality augmented.<br>My personal blog of tech and life.'
+description:      'My personal blog of tech and life.'
 url:              http://ba7lnn.hingtak.com/
 
 author:
