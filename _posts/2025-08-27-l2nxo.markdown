@@ -1,0 +1,16 @@
+---
+layout: post
+title: L2N 20M SSB
+date: 2025-08-27 12:59:00 -0700
+---
+
+## L2N SSB 20米[14.270mhz] 
+
+<hr size=1/>
+
+![2D_PCB1_2025-08-28-front.png](/assets/2025/l2nx0/2D_PCB1_2025-08-28-front.png)
+![2D_PCB1_2025-08-28-back.png](/assets/2025/l2nx0/2D_PCB1_2025-08-28-back.png)
+
+* [走线图PCB PDF](/assets/2025/l2nx0/PCB_PCB1_2025-08-28-x-schematic.pdf)
+* [原理图PCB PDF](/assets/2025/l2nx0/SCH_Schematic1_2025-08-28.pdf)
+* [BOM元件表](/assets/2025/l2nx0/BOM_Board1_Schematic1_2025-08-28.xlsx)

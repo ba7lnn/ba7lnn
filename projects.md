@@ -4,6 +4,16 @@ title: Projects
 ---
 _________________
 
+## [L2N SSB](2025/08/l2nxo.html)
+
+* PCB尺寸85*95mm
+* STM32F103x 32位单片机
+* 支持SSB/FT8
+* 中频8MHz
+* 5W功率
+
+_________________
+
 ## [reKNQ7](2025/05/reknq7-dip-smd-si53531.html)
 
 * PCB尺寸85*95mm
