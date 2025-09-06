@@ -142,3 +142,5 @@ Si5351本身安装的25MHz TCXO(封装格式为3225), 根据Si5351芯片数据�
 ![L2N VFO MINI正面2](/assets/l2n-vfo-mini-back.jpg)
 ![L2N VFO MINI PCB正面1](/assets/l2n-vfo-mini-sim-front.png)
 ![L2N VFO MINI PCB背面2](/assets/l2n-vfo-mini-sim-back.png)
+![L2N VFO 频率](/assets/l2n-mini-vfo-out-freq.jpg)
+![L2N BFO 频率](/assets/l2n-mini-bfo-out-freq.jpg)
