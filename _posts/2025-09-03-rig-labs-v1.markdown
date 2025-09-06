@@ -1,0 +1,24 @@
+---
+layout: post
+title: RIG LABS
+date: 2025-09-03 09:55:00 -0700
+---
+
+## 我的试验板 
+
+试验各种电路
+
+* stockton bridge  Reference R2AUK [ref](https://eax.me/stockton-bridge-v2/)
+* LPF
+* LDO [12v,8v, 5v, 3.3v]
+* BPF
+* mosfet RX/TX switch [ref](https://eax.me/mosfet-rx-tx-switch/)
+* Ampfilier [ref](https://eax.me/files/2020/11/40m-cw-transceiver.pdf)
+* Tuna Tin 2 (QRPp) [ref](https://eax.me/tuna-tin-2/)
+* LM386 AGC [ref](https://eax.me/files/2023/10/hbr-40-schematic.pdf)
+* PWM 700hz to CW TONE [ref](https://eax.me/ayn-4b-transceiver/)
+
+
+<hr size=1/>
+
+![2D_L2N_RIGLABS_2025-09-05.png](/assets/2025/2D_L2N_RIGLABS_2025-09-05.png)
