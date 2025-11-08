@@ -13,8 +13,8 @@ title:  "耦合器 Directional Wattmeter"
 
 <hr size="1"/>
 
-![directional1]({{site.url}}/assets/2025/directional/2D_Tandem_2025-11-08.png)
-![directional1]({{site.url}}/assets/2025/directional/2D_Tandem_2025-11-08-2.png)
+![directional1]({{site.url}}assets/2025/directional/2D_Tandem_2025-11-08.png)
+![directional1]({{site.url}}assets/2025/directional/2D_Tandem_2025-11-08-2.png)
 
 
 ## ■ 参数：
@@ -68,8 +68,8 @@ title:  "耦合器 Directional Wattmeter"
 
 <hr size="1"/>
 
-![directional1]({{site.url}}/assets/2025/directional/2D_Tandom_2025-11-08.png)
-![directional1]({{site.url}}/assets/2025/directional/2D_Tandom_2025-11-08-2.png)
+![directional1]({{site.url}}assets/2025/directional/2D_Tandom_2025-11-08.png)
+![directional1]({{site.url}}assets/2025/directional/2D_Tandom_2025-11-08-2.png)
 
 
 ## ■ 参数：
