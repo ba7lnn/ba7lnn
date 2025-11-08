@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "耦合器 Direction Wattmeter"
+title:  "耦合器 Directional Wattmeter"
 ---
 
-# ■ Direction Wattmeter 1
+# ■ Directional Wattmeter 1
 
 
 ## ■ 功能概要：
@@ -58,7 +58,7 @@ title:  "耦合器 Direction Wattmeter"
 
 <hr size="1"/>
 
-# ■ Direction Wattmeter 2
+# ■ Directional Wattmeter 2
 
 
 ## ■ 功能概要：
