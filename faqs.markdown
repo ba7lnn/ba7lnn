@@ -3,8 +3,9 @@ layout: post
 title:  "FAQs"
 ---
 
-
 [VFO SQUARE(8051)](index.html) ■ [VFO BOX(STM32)](/vfo-box-stm32.html) ■ [Components](/components.html) ■  [FAQs](/faqs.html) ■ [About](/about.html)
+
+<hr size=1/>
 
 
 # ■ 常见问题
@@ -35,5 +36,7 @@ Si5351本身安装的25MHz TCXO(封装格式为3225), 根据Si5351芯片数据�
 
 实际此方法下屏亮度有所降低，但不影响使用。
 
+
+<hr size=1/>
 
 [VFO SQUARE(8051)](index.html) ■ [VFO BOX(STM32)](/vfo-box-stm32.html) ■ [Components](/components.html) ■  [FAQs](/faqs.html) ■ [About](/about.html)

@@ -3,8 +3,9 @@ layout: post
 title:  "VFO BOX(STM32), OLED屏幕，STM32F103, Si5351"
 ---
 
-
 [VFO SQUARE(8051)](index.html) ■ [VFO BOX(STM32)](/vfo-box-stm32.html) ■ [Components](/components.html) ■  [FAQs](/faqs.html) ■ [About](/about.html)
+
+<hr size=1/>
 
 
 # ■ VFO BOX(STM32)：
@@ -77,5 +78,6 @@ EC11 编码器占用引脚：
 配合铝盒子及喇叭请查看常用器件列表
 
 
+<hr size=1/>
 
 [VFO SQUARE(8051)](index.html) ■ [VFO BOX(STM32)](/vfo-box-stm32.html) ■ [Components](/components.html) ■  [FAQs](/faqs.html) ■ [About](/about.html)

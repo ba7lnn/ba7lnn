@@ -3,9 +3,9 @@ layout: post
 title:  "VFO MINI, 1206屏幕，OLED,STC8H1K17T, Si5351"
 ---
 
-
 [VFO SQUARE(8051)](index.html) ■ [VFO BOX(STM32)](/vfo-box-stm32.html) ■ [Components](/components.html) ■  [FAQs](/faqs.html) ■ [About](/about.html)
 
+<hr size=1/>
 
 # ■ VFO SQUARE
 
