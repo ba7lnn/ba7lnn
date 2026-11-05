@@ -3,6 +3,11 @@ layout: post
 title:  "L2N VFO MINI, 1206屏幕，OLED,STC8H1K17T, Si5351"
 ---
 
+<hr size=1/>
+
+[about](/about/)
+
+<hr size=1/>
 
 
 # ■ L2N VFO MINI
@@ -169,3 +174,7 @@ Si5351本身安装的25MHz TCXO(封装格式为3225), 根据Si5351芯片数据�
 ![reKNQ7-spk.png](/assets/2025/reKNQ7-spk.png)
 
 * 喇叭这里购买：[淘宝地址](https://item.taobao.com/item.htm?id=702688632219&pisk=gGrooOqbkzu7SG-Wr9m5P6L37cQvF0iIKWKK9DhFujlbe2ldPW039SgU20e8ik28l8KdP03nxSlbeHQS2oDUgSiKa_iRK9VTOHF3dTMETWPn9zQAX8wSAD5TxGITF7j7DdVkY28VLAMyzt3zqybb6D5O6GLv341-YWIizv2XuAGqUv-r8tmqKAHrY2kz3tDEpQ8e4WyVnjMBYXlE8IRqBAHEY3oEuEkSUe-r82oV0jMEY3-UT-WmpjlEYDPU3xOXYfqUco5hFvLvolA7ZY0o_8lue8EVkq87Fj47yokuVPwyRH-UmY0u0p3TLR088Rg_2uSHc0egumkbvstrtrkgpmqhN3hI4Ag_WqAPFYUUhyl7j6xiaua0xmENOhFgwSrtvuWpo5unZrrrop-ED040tymwgtM88-aENlfHjbr7nP33P1Y__-eTVqZhsIlQyAiqhkCX4X4qLgkeuFuDTHMVpo8BR4kjnfEESXXGTWcDTtXD5agrhYCOntYBR4kjnfBcnFOIzxMR6&spm=tbpc.mytb_itemcollect.item.goods&upStreamPrice=350&skuId=4954049717567)
+
+<hr size=1/>
+
+[About](/about/)
