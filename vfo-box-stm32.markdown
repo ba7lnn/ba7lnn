@@ -3,14 +3,11 @@ layout: post
 title:  "VFO BOX(STM32), OLED屏幕，STM32F103, Si5351"
 ---
 
-<hr size=1/>
 
 [VFO SQUARE(8051)](index.html) ■ [VFO BOX(STM32)](/vfo-box-stm32.html) ■ [Components](/components.html) ■  [FAQs](/faqs.html) ■ [About](/about.html)
 
-<hr size=1/>
 
 # ■ VFO BOX(STM32)：
-
 
 名称来源，配合有长方形盒子(BOX)。
 
@@ -23,7 +20,6 @@ title:  "VFO BOX(STM32), OLED屏幕，STM32F103, Si5351"
 * → Si5351(SILICON LABS)/MS5351(国产)
 * → 硬件开源资料，软件代码因写的丑不开源
 
-
 ## ■ 参数指标：
 
 * → 频率范围： 30k-80Mhz
@@ -32,9 +28,7 @@ title:  "VFO BOX(STM32), OLED屏幕，STM32F103, Si5351"
 * → 输出：-6~~8dbm
 * → 供电压：5V, 板载LDO: 662K
 
-
 ## ■ 引脚功能：
-
 
 * → SDA & SCL ：I2C引出引脚。
 * → A14 ：
@@ -69,12 +63,10 @@ EC11 编码器占用引脚：
 
 ## ■ 资料：
 
-
 * 主控MCU:  STM32F103C8T6 LQFP48
 *  → <a href="https://www.st.com/en/microcontrollers-microprocessors/stm32f103c8.html">ST官方页面</a>
 * 频率芯片: SI5351A-GTR
 *  → <a href="/assets/2025/si5351_an619.pdf">Si5351 AN619开手册PDF</a>
-
 
 ![2D_L2N32_V3 模拟图](/assets/2025/2D_L2N32_V3_2025-08-13.png)
 
@@ -84,6 +76,6 @@ EC11 编码器占用引脚：
 
 配合铝盒子及喇叭请查看常用器件列表
 
-<hr size=1/>
+
 
 [VFO SQUARE(8051)](index.html) ■ [VFO BOX(STM32)](/vfo-box-stm32.html) ■ [Components](/components.html) ■  [FAQs](/faqs.html) ■ [About](/about.html)

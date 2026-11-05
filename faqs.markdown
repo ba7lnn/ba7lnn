@@ -3,15 +3,11 @@ layout: post
 title:  "FAQs"
 ---
 
-<hr size=1/>
 
 [VFO SQUARE(8051)](index.html) ■ [VFO BOX(STM32)](/vfo-box-stm32.html) ■ [Components](/components.html) ■  [FAQs](/faqs.html) ■ [About](/about.html)
 
-<hr size=1/>
-
 
 # ■ 常见问题
-
 
 ## ■ 频率校准:
 
@@ -30,7 +26,6 @@ Si5351本身安装的25MHz TCXO(封装格式为3225), 根据Si5351芯片数据�
 
 ## ■ 关于屏幕
 
-
 * → 1、屏幕使用的是OLED 1306, 0.96或是1.3英寸均可。
 * → 2、关于屏幕干扰短波，说是屏幕的电荷泵，常用两种方
 * → (1)在VCC上串联色环电感330mH,再并联470uF电容到GND
@@ -40,7 +35,5 @@ Si5351本身安装的25MHz TCXO(封装格式为3225), 根据Si5351芯片数据�
 
 实际此方法下屏亮度有所降低，但不影响使用。
 
-
-<hr size=1/>
 
 [VFO SQUARE(8051)](index.html) ■ [VFO BOX(STM32)](/vfo-box-stm32.html) ■ [Components](/components.html) ■  [FAQs](/faqs.html) ■ [About](/about.html)
