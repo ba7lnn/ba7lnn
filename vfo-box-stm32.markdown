@@ -69,11 +69,11 @@ EC11 编码器占用引脚：
 * 频率芯片: SI5351A-GTR
 *  → <a href="/assets/2025/si5351_an619.pdf">Si5351 AN619开手册PDF</a>
 
-![2D_L2N32_V3 模拟图](/assets/2025/2D_L2N32_V3_2025-08-13.png)
+![2D_L2N32_V3 模拟图](/assets/2025/box-m32-V3-2025-08-13.png)
 
-![stm32-l2n PCB正面1](/assets/2025/stm32-l2n_2025-08-13_144246_017.jpg)
+![stm32-l2n PCB正面1](/assets/2025/box-m32-2025-08-13-144246-017.jpg)
 
-![stm32-l2n PCB背面2](/assets/2025/stm32-l2n-2025-08-13_144154_784.jpg)
+![stm32-l2n PCB背面2](/assets/2025/box-m32-2025-08-13-144154-784.jpg)
 
 配合铝盒子及喇叭请查看常用器件列表
 
