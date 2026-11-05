@@ -3,11 +3,8 @@ layout: post
 title:  "VFO MINI, 1206屏幕，OLED,STC8H1K17T, Si5351"
 ---
 
-<hr size=1/>
 
 [VFO SQUARE(8051)](index.html) ■ [VFO BOX(STM32)](/vfo-box-stm32.html) ■ [Components](/components.html) ■  [FAQs](/faqs.html) ■ [About](/about.html)
-
-<hr size=1/>
 
 
 # ■ VFO SQUARE
@@ -58,7 +55,6 @@ title:  "VFO MINI, 1206屏幕，OLED,STC8H1K17T, Si5351"
 
 注：I2C引脚也用于经PCF8574T后连接到1602屏，下载对应固件即可
 
-<hr size="1"/>
 
 ## ■ 频率输出:
 
@@ -69,7 +65,6 @@ title:  "VFO MINI, 1206屏幕，OLED,STC8H1K17T, Si5351"
 ![L2N VFO MINI 原理图]({{site.url}}/assets/2025/l2n-vfo-mini-freq-memo1.jpg)
 注：每个CLKx 旁边均有GND引脚，需注意有箭头处为频率出脚, 如上图所注
 
-<hr size="1"/>
 
 ## ■ 安装硬件:
 
@@ -88,10 +83,8 @@ title:  "VFO MINI, 1206屏幕，OLED,STC8H1K17T, Si5351"
 *  → <a href="/assets/2025/si5351_an619.pdf">Si5351 AN619开手册PDF</a>
 
 
-<hr size="1"/>
-
 <h2>■ 图片集</h2>
-<hr size="1"/>
+
 
 ![L2N VFO MINI正面1](/assets/2025/l2n-vfo-mini-front.jpg)
 ![L2N VFO MINI正面2](/assets/2025/l2n-vfo-mini-back.jpg)
