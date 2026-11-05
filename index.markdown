@@ -63,6 +63,7 @@ title:  "VFO MINI, 1206屏幕，OLED,STC8H1K17T, Si5351"
 * → CLK1: 输出VFO
 
 ![L2N VFO MINI 原理图]({{site.url}}/assets/2025/l2n-vfo-mini-freq-memo1.jpg)
+
 注：每个CLKx 旁边均有GND引脚，需注意有箭头处为频率出脚, 如上图所注
 
 
