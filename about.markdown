@@ -1,7 +1,6 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: About BA7LNN
 ---
 I am eddit a Department of Hook-up wire with [UL](http://www.ul.com) M.f.g,  My research focuses are Hook-up wire, Ex: UL1007, UL1015, UL3266, UL2725, UL1354, etc.
 
@@ -24,4 +23,4 @@ Email: ba7lnn@foxmail.com
 
 <hr size=1/>
 
-[Home](/index.html)
+[VFO SQUARE(8051)](index.html) ■ [VFO BOX(STM32)](/vfo-box-stm32.html) ■ [Components](/components.html) ■  [FAQs](/faqs.html) ■ [About](/about.html)
