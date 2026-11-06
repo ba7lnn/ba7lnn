@@ -94,6 +94,13 @@ title:  "VFO SQUARE, 1206屏幕，OLED,STC8H1K17T, Si5351"
 ![L2N VFO 频率](/assets/2025/square-vfo-out-freq.jpg)
 ![L2N BFO 频率](/assets/2025/square-bfo-out-freq.jpg)
 
+## ■ 写在后面:
+
+→ 我踩过的坑： 
+* 虽然都叫TL431但封装有不同，安装前要核对原理图和PCB。
+* 玩Si5351,还是不要使用两脚封装的晶振（这里指49U或49S), 使用TCXO还是要轻松不少。
+
+
 <hr size=1/>
 
 [VFO SQUARE(8051)](index.html) ■ [VFO BOX(STM32)](/vfo-box-stm32.html) ■ [Components](/components.html) ■  [FAQs](/faqs.html) ■ [About](/about.html)
