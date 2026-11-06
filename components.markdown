@@ -26,15 +26,14 @@ title:  "常用的器件,电子元件, 铝盒, 喇叭"
 * → PH 2.0 DIP座
 
 
-
-* 配合铝盒子尺寸： 90 * 44 * 100mm
+## ■ 配合铝盒子尺寸： 90 * 44 * 100mm
 
 ![reKNQ7-box.png](/assets/2025/box-front-panel.png)
 
 * 点击这里购买：[淘宝地址](https://item.taobao.com/item.htm?id=611767722005&pisk=gjXtoXsZ0y4GLq0ZXZVnmQd8rUq3xWjwdNSSnEYiGwQdSeD0bdV2HZLduFAMCG2f-Nj7bFV4_ZQdSgZwSGTckZQe8OYGoZDvkgJ6g1YDSEpA0aE3r82lbGJ2Fz4uEgmVT5p6fET6coTBb3EHfOI0Txp2hz4otxOaeK7_eItzCXtB8nKj5I_bd2tXRnTX5ZTBO3to5K9flkLB4nMXcAMsdXtvRjt61AGIR3tDcE9XfkIB8nHXhK_XdkK2RE9Xhv7Qkei6oxCt8erENXrrHxBpXCLjneHvL9kk_UTvRxNcyhUyPGTKhxT80EV5vG4tUMvNAaKlSJMOyMjlQBWYyRdNdgBe6toxTMAyWpTNsPHeXNjAeB6_m0Y1Li6y9LFqreWVA_AyFVG62dL9NO_ncu96Gn96714tLhQGDTdCCockYs_FHdv7UVTctgBvDtz4paIhqORFHzeC4wBlebxjrUKm1kEKgjR6YxsV0IdaDdi9vUqTHjl2Tk-prkEKgjR6YHLuXPhqgBrF.&spm=tbpc.mytb_itemcollect.item.goods&upStreamPrice=1690)
 
 
-* 配合喇叭： 31mm直径， 3瓦，4欧
+## ■ 配合喇叭： 31mm直径， 3瓦，4欧
 
 ![reKNQ7-spk.png](/assets/2025/reKNQ7-spk.png)
 
